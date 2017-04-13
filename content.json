@@ -1,7 +1,12 @@
 {
  "address": "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr",
  "description": "",
+ "domain": "zule.bit",
  "files": {
+  "README.md": {
+   "sha512": "4c4dfe1688fd65ffb96ad0cf9799b29aa9615387d6f761369725b0d1477f5bd6",
+   "size": 142
+  },
   "css/all.css": {
    "sha512": "47fb3c017746e5c48b387c82cd7b2234efe54d283dde135d9ec04d7c1f5ffea5",
    "size": 41323
@@ -51,16 +56,16 @@
    "size": 95126
   }
  },
- "ignore": "(merged-.*|(js|css)/(?!all.(js|css))|^.git|^_OLD)",
+ "ignore": "(merged-.*|(js|css)/(?!all.(js|css))|^.git|^_OLD|^backend)",
  "inner_path": "content.json",
- "modified": 1492080296,
+ "modified": 1492094798,
  "sign": [
-  50303665843496392103299890837822782016041317466480593418322448658466295684410,
-  10268704582048244230675664905505365740830189555120116728840675310066300049392
+  61832813481766044136786282507368470883704895993315204552972257079428359560921,
+  72618606459835551439383027324802851953445900147376667937226056465340987805220
  ],
  "signers_sign": "G+kPMptJm7nMSwrJKdCxmEF/Z2fguxe6VNB0YzJXjb2WFgFWVy3FC47u5GaFFiiHkNCv1v70ue7R7qfAQVx2sto=",
  "signs": {
-  "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr": "HInQ3bgvSBJWQySWIXD25wbREs46+hEjvslBobgWQzRuKI8ONnSHdBotrfAWwDo2DVbzR5uSDKZFb4x9eddTvGQ="
+  "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr": "Gyk7zc2XM5mYEpdu8Jlx1HGlZ+seYbDv5DaZuR0vH++jDh1cIMOInN9OW3tABosnSH+LfTyJo26Gl8AvscpXflA="
  },
  "signs_required": 1,
  "title": "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr - ZeroNet_",

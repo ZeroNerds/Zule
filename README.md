@@ -6,4 +6,4 @@ _...comming soon..._
 # TODOs
 - [x] Frontend
 - [ ] ZeroNet-js
-- [ ] Backend and Crwaler
+- [ ] Backend and Crawler
