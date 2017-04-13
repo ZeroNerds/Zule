@@ -1,0 +1,68 @@
+{
+ "address": "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr",
+ "description": "",
+ "files": {
+  "css/all.css": {
+   "sha512": "47fb3c017746e5c48b387c82cd7b2234efe54d283dde135d9ec04d7c1f5ffea5",
+   "size": 41323
+  },
+  "fonts/FontAwesome.otf": {
+   "sha512": "a3acaaac3a9861ac7a4ba23e52b9115d39b674cb685b45454fb4b80329a4f737",
+   "size": 134808
+  },
+  "fonts/fontawesome-webfont.eot": {
+   "sha512": "c160d3d77e67eff986043461693b2a831e1175f579490d7f0b411005ea81bd4f",
+   "size": 165742
+  },
+  "fonts/fontawesome-webfont.ttf": {
+   "sha512": "9ffb91e68c975172848b4bba25284678cc2c6eb4fb2d42000aa871c36656c4ce",
+   "size": 165548
+  },
+  "fonts/fontawesome-webfont.woff": {
+   "sha512": "9c776dea55a01fd854ea23b3463d9ac716077d406ecbe8ed0c9b6120ff7e6035",
+   "size": 98024
+  },
+  "fonts/fontawesome-webfont.woff2": {
+   "sha512": "838fefdbc14901f41edf995a78fdac55764cd4912ccb734b8bea490919458290",
+   "size": 77160
+  },
+  "img/logo-big.png": {
+   "sha512": "3322a901519632fd7d875493bfa17a87a736f3e2aacac2c1dd7cbe684eaf5d2f",
+   "size": 9680
+  },
+  "img/logo-big.xcf": {
+   "sha512": "9e4411be8e7de7ea3151c424076dfd47b10537cf8006eec3d1d8db54008d0891",
+   "size": 31512
+  },
+  "img/logo.png": {
+   "sha512": "466e2a3cad4d1fbe6fc61a36451113be0bb8e9a817c6de61a448666208bf1090",
+   "size": 7449
+  },
+  "img/logo.xcf": {
+   "sha512": "95fcad2836c702f0891cd5e612a7a315589731e10d2c3b3d0baaff4cd58fd08d",
+   "size": 12986
+  },
+  "index.html": {
+   "sha512": "4235c759558ce44f72c998b555f936d181f1927f104f0f23168a0ec5b814c0e5",
+   "size": 1476
+  },
+  "js/all.js": {
+   "sha512": "0a22419a3538f653d6ba2b01a81c9b8ad75841bad13a0570e2d7e53ee92c593b",
+   "size": 95126
+  }
+ },
+ "ignore": "(merged-.*|(js|css)/(?!all.(js|css))|^.git|^_OLD)",
+ "inner_path": "content.json",
+ "modified": 1492080296,
+ "sign": [
+  50303665843496392103299890837822782016041317466480593418322448658466295684410,
+  10268704582048244230675664905505365740830189555120116728840675310066300049392
+ ],
+ "signers_sign": "G+kPMptJm7nMSwrJKdCxmEF/Z2fguxe6VNB0YzJXjb2WFgFWVy3FC47u5GaFFiiHkNCv1v70ue7R7qfAQVx2sto=",
+ "signs": {
+  "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr": "HInQ3bgvSBJWQySWIXD25wbREs46+hEjvslBobgWQzRuKI8ONnSHdBotrfAWwDo2DVbzR5uSDKZFb4x9eddTvGQ="
+ },
+ "signs_required": 1,
+ "title": "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr - ZeroNet_",
+ "zeronet_version": "0.5.3"
+}
