@@ -1,0 +1,22 @@
+{
+  "name": "zule-backend",
+  "version": "0.0.1",
+  "description": "Zule - ZeroNet full-text search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zule",
+    "zeronet",
+    "search-engine"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bufferutil": "^3.0.0",
+    "request": "^2.81.0",
+    "utf-8-validate": "^3.0.1",
+    "ws": "^2.2.3"
+  }
+}
