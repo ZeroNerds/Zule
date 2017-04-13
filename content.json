@@ -8,8 +8,8 @@
    "size": 142
   },
   "css/all.css": {
-   "sha512": "47fb3c017746e5c48b387c82cd7b2234efe54d283dde135d9ec04d7c1f5ffea5",
-   "size": 41323
+   "sha512": "bed68ba86a2c3f300c5fa4d633961b2f15c22866c162bae2d89c49f460e9a787",
+   "size": 41412
   },
   "fonts/FontAwesome.otf": {
    "sha512": "a3acaaac3a9861ac7a4ba23e52b9115d39b674cb685b45454fb4b80329a4f737",
@@ -58,16 +58,16 @@
  },
  "ignore": "(merged-.*|(js|css)/(?!all.(js|css))|^.git|^_OLD|^backend)",
  "inner_path": "content.json",
- "modified": 1492094798,
+ "modified": 1492096169,
  "sign": [
-  61832813481766044136786282507368470883704895993315204552972257079428359560921,
-  72618606459835551439383027324802851953445900147376667937226056465340987805220
+  44536575495512792347563682293666606442612674748317450834302279923726960156497,
+  48578681132038117976104126487390081180238688526383018274690604788177300164589
  ],
  "signers_sign": "G+kPMptJm7nMSwrJKdCxmEF/Z2fguxe6VNB0YzJXjb2WFgFWVy3FC47u5GaFFiiHkNCv1v70ue7R7qfAQVx2sto=",
  "signs": {
-  "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr": "Gyk7zc2XM5mYEpdu8Jlx1HGlZ+seYbDv5DaZuR0vH++jDh1cIMOInN9OW3tABosnSH+LfTyJo26Gl8AvscpXflA="
+  "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr": "HLIgCmjlYJlmXbuAIZ6ZR+N2nIX1ltm3+Nogu/DhMZx3bnsGF3EZ4f4oW7uH9jKgE/V6MGH42nDYxgYi+J5ufxM="
  },
  "signs_required": 1,
  "title": "1zULEA9oGbwG1CdZ6t4wzQGWHFF5ETxjr - ZeroNet_",
- "zeronet_version": "0.5.3"
+ "zeronet_version": "0.5.4"
 }
