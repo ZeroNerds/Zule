@@ -79,24 +79,30 @@ function ZeroFrame(ws) {
   this.cmd = cmd
 }
 
-function parseCookies (rc) {
-    var list = {};
+function parseCookies(rc) {
+  var list = {}
 
-    rc && rc.split(';').forEach(function( cookie ) {
-        var parts = cookie.split('=');
-        if (!parts[0]||parts[0]=="path"||parts[0]=="max-age") return
-        list[parts.shift().trim()] = decodeURI(parts.join('='));
-    });
+  if (rc) rc.split(';').forEach(function (cookie) {
+    var parts = cookie.split('=');
+    if (!parts[0] || parts[0] == "path" || parts[0] == "max-age") return
+    list[parts.shift().trim()] = decodeURI(parts.join('='));
+  })
 
-    return list;
+  return list
 }
 
 function buildCookies(list) {
-  return Object.keys(list).map(field => {return {field,value:list[field]}}).map(v => v.field+"="+encodeURI(v.value)).join("; ")
+  return Object.keys(list).map(field => {
+    return {
+      field,
+      value: list[field]
+    }
+  }).map(v => v.field + "=" + encodeURI(v.value)).join("; ")
 }
 
 function getString(a) {
-  if (Array.isArray(a)) return a.join(""); else return a
+  if (Array.isArray(a)) return a.join("");
+  else return a
 }
 
 function BuildSocket(set, cb) {
@@ -110,14 +116,14 @@ function BuildSocket(set, cb) {
     }
   }, (e, r, body) => {
     if (e) return cb(e)
-    const cookies=parseCookies(getString(r.headers["set-cookie"]))
+    const cookies = parseCookies(getString(r.headers["set-cookie"]))
     console.log(buildCookies(cookies))
     const match = re.exec(body)
     if (!match) return cb(new Error("No wrapper_key. Is this the right server?"))
     const key = match[1]
-    const ws = new WS("ws" + (set.protocol == "https" ? "s" : "") + "://" + set.host + ":" + set.port + "/Websocket?wrapper_key=" + key,{
-      headers:{
-        "Cookie":buildCookies(cookies)
+    const ws = new WS("ws" + (set.protocol == "https" ? "s" : "") + "://" + set.host + ":" + set.port + "/Websocket?wrapper_key=" + key, {
+      headers: {
+        "Cookie": buildCookies(cookies)
       }
     })
     const zf = new ZeroFrame(ws)

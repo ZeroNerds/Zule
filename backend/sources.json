@@ -1,12 +1,10 @@
 {
   "proxies":[
     "http://127.0.0.1:43110/",
-    "https://bit.no.com:43110",
+    "https://bit.surf:43110",
     "https://fuckcf.cf",
     "https://antnet.org/",
-    "https://onlyzero.net/",
     "https://zeronet.korso.win",
-    "https://zero.btnova.org",
     "https://proxy1.zeronet.functor.xyz:10443",
     "https://zeronet.maxweiss.io"
   ],
