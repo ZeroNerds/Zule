@@ -14,7 +14,10 @@
   "author": "Maciej Krüger <mkg20001@gmail.com>",
   "license": "GPL-3.0",
   "dependencies": {
+    "app-module-path": "^2.2.0",
     "bufferutil": "^3.0.0",
+    "mongoose": "^4.9.4",
+    "python-shell": "^0.4.0",
     "request": "^2.81.0",
     "utf-8-validate": "^3.0.1",
     "ws": "^2.2.3"
