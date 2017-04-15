@@ -8,9 +8,7 @@ function siteCrawler(set, cb) {
   zeroFrame(set, (e, z) => {
     if (e) return cb(e)
     log.cycle("Crawl proxy " + set.host)
-    console.log(set)
-    //z.onOpenWebsocket=() => {
-    z.cmd("siteList", {}, (e, res) => { //on public proxies this never get's called! multiuser errors? cookies! TODO: fix this
+    z.cmd("siteList", {}, (e, res) => {
       if (e) return cb(e)
       const list = res.map(r => {
         return {
@@ -25,7 +23,6 @@ function siteCrawler(set, cb) {
         list
       })
     })
-    //}
   })
 }
 const sources = require("../../sources.json").proxies

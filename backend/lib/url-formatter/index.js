@@ -14,4 +14,4 @@ function URLFormatter(url) {
     zite: u.path.split("/")[1] || "1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D"
   }
 }
-module.exports=URLFormatter
+module.exports = URLFormatter

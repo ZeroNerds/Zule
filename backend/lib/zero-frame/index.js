@@ -117,7 +117,6 @@ function BuildSocket(set, cb) {
   }, (e, r, body) => {
     if (e) return cb(e)
     const cookies = parseCookies(getString(r.headers["set-cookie"]))
-    console.log(buildCookies(cookies))
     const match = re.exec(body)
     if (!match) return cb(new Error("No wrapper_key. Is this the right server?"))
     const key = match[1]
