@@ -4,7 +4,9 @@
   "description": "Zule - ZeroNet full-text search engine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "zule",
@@ -20,6 +22,8 @@
     "python-shell": "^0.4.0",
     "request": "^2.81.0",
     "utf-8-validate": "^3.0.1",
-    "ws": "^2.2.3"
-  }
+    "ws": "^2.2.3",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
